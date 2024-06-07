@@ -1,0 +1,9 @@
+<div class="card">
+  <img src="{{ user.avatar }}" class="card-img-top" alt="User" />
+  <div class="card-body">
+    <h3 class="card-title">{{ user.first_name + " " + user.last_name }}</h3>
+    <p class="card-text">
+    <strong>Email:</strong>&nbsp;<a href="mailto:{{ user.email }}">{{ user.email }}</a>
+    </p>
+  </div>
+</div>
